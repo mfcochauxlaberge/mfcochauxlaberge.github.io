@@ -6,18 +6,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0; padding: 0;
 }
 
-#sites {
+#profiles {
   margin: 0; padding: 0;
   list-style-type: none;
 }
 
-#sites li {
+#profiles li {
   display: flex;
   align-items: center;
   margin: 4px 0; padding: 0;
 }
 
-#sites li img {
+#profiles li img {
   margin: 0 4px 0 0;
 }
 
