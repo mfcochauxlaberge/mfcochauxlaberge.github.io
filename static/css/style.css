@@ -1,31 +1,77 @@
 body {
-
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa, serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0; padding: 0;
-}
-
-#profiles {
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt {
   margin: 0; padding: 0;
-  list-style-type: none;
-}
-
-#profiles li {
-  display: flex;
-  align-items: center;
-  margin: 4px 0; padding: 0;
-}
-
-#profiles li img {
-  margin: 0 4px 0 0;
 }
 
 a {
   color: #444;
 }
 
+#app {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+#header {
+  display: grid;
+  grid-template:
+    "logo name"
+  ;
+  grid-template-columns: 140px 1fr;
+  grid-template-rows: 140px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#logo {
+  grid: logo;
+}
+
+#logo img {
+  height: 100%;
+  border-radius: 500px;
+}
+
+#name {
+  grid: name;
+  display: flex;
+  align-items: center;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+#profiles {
+  /* margin: 0; padding: 0; */
+  list-style-type: none;
+}
+
+#profiles li {
+  display: flex;
+  align-items: center;
+  /* margin: 4px 0; padding: 0; */
+}
+
+#profiles li img {
+  height: 24px;
+  width: 24px;
+  margin: 0 4px 0 0;
+}
+
+#profiles li a {
+  margin: 4px 0;
+}
+
 #projects dd p {
-	margin: 10px 0;
+	margin: 5px 0;
 	font-style: italic;
 }
