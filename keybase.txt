@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mfcl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of https://mfcl.io
+* I am mfcl (https://keybase.io/mfcl) on keybase.
+* I have a public key ASAKG12RJBWhhwH4zcWGTTv1s3NX-I5BddpuANQZi5PDfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200a1b5d912415a18701f8cdc5864d3bf5b37357f88e4175da6e00d4198b93c37f0a",
+      "host": "keybase.io",
+      "kid": "01200a1b5d912415a18701f8cdc5864d3bf5b37357f88e4175da6e00d4198b93c37f0a",
+      "uid": "536c7c8042c06d74bf6e88c775d56119",
+      "username": "mfcl"
+    },
+    "merkle_root": {
+      "ctime": 1533833642,
+      "hash": "cb0a21c7910ec1895ed6fd90f98ccf4353bb34b5272d9ce9f6d60229b510c481569b8c0778e91adf5f5faeb5cbe4658fe8e049faf7a46bf83f647aef962f237c",
+      "hash_meta": "761556c463f821bc03b8a0dbc0f7bd37ac8bceabc07a4fbe28f1537bb34df8d1",
+      "seqno": 3433644
+    },
+    "service": {
+      "entropy": "+aSJBNVP+Jl0nLaP55RyNxZW",
+      "hostname": "mfcl.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.5.0"
+  },
+  "ctime": 1533833656,
+  "expire_in": 504576000,
+  "prev": "c1b63cef0282820bb0b9239aa332f11b54e6f7f8742bafaf3bf4398299e47b58",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgChtdkSQVoYcB+M3Fhk079bNzV/iOQXXabgDUGYuTw38Kp3BheWxvYWTESpcCCMQgwbY87wKCgguwuSOaozLxG1Tm9/h0K6+vO/Q5gpnke1jEIHkj69U+DryI6TkNuPEbgjBMR3/Vy/suXxaFRdR9FGfeAgHCo3NpZ8RAOntFNE7mQXJ7uHAwavI1e03m/dAetvAJsgVfSBi3jtMW42WWLcQFI5xHnYAmkA4f9bxqailnLE+VGJuatc6wCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIE44btBZMkCXnZADdJ1nUL22u793CAJkCtbzXtmGpJ0Io3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mfcl
+
+==================================================================
