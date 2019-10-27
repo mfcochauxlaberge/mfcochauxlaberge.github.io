@@ -42,6 +42,15 @@ h2 {
   border-bottom: 1px solid black;
 }
 
+h3 a {
+  color: black;
+}
+
+h3 span {
+  font-weight: 400;
+  font-size: smaller;
+}
+
 #name {
   grid: name;
   display: flex;
