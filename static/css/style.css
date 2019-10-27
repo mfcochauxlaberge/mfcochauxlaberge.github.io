@@ -38,6 +38,10 @@ a {
   border-radius: 500px;
 }
 
+h2 {
+  border-bottom: 1px solid black;
+}
+
 #name {
   grid: name;
   display: flex;
@@ -72,8 +76,8 @@ a {
   margin: 4px 0;
 }
 
-#projects dd p {
-	margin: 5px 0;
+.project p {
+	color: #888;
 	font-style: italic;
 }
 
