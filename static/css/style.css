@@ -41,7 +41,7 @@ a {
 }
 
 h2 {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
 }
 
 h3 a {
@@ -64,6 +64,10 @@ h3 span {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+}
+
+.box {
+  background: #eee;
 }
 
 #profiles {
