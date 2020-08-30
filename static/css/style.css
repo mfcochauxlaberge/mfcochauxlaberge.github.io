@@ -92,9 +92,10 @@ h3 span {
 
 .box-arkipel {
   min-height: 400px;
-  background: url('../img/bg_arkipel.jpg') #27474a;
+  background: url('../img/bg_arkipel.jpg') #00cbda;
   background-position: bottom center;
   background-size: 100% auto;
+  background-repeat: no-repeat;
   color: rgba(20, 20, 40, 0.9);
 }
 
