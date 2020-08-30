@@ -75,6 +75,7 @@ h3 span {
 
 .box {
   display: grid;
+  align-content: start;
   gap: 10px;
   padding: 10px;
   background: #eee;
@@ -87,6 +88,34 @@ h3 span {
 
 .box-description a {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.box-arkipel {
+  min-height: 400px;
+  background: url('../img/bg_arkipel.jpg') #27474a;
+  background-position: bottom center;
+  background-size: 100% auto;
+  color: rgba(20, 20, 40, 0.9);
+}
+
+.box-arkipel h2 {
+  font-family: "Bungee Shade";
+  text-align: center;
+  font-size: 32px;
+}
+
+.box-arkipel p {
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.box-arkipel a {
+  padding: 10px;
+  margin: auto;
+  color: #000;
+  /* border: 1px solid black; */
+  /* border-radius: 4px; */
+  background: rgba(255, 255, 255, 0.8);
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.4); */
 }
 
 .box-code {
@@ -150,6 +179,11 @@ h3 span {
 .project p {
 	color: #aaa;
 	font-style: italic;
+}
+
+@font-face {
+  font-family: "Bungee Shade";
+  src: url("../fonts/BungeeShade-Regular.ttf");
 }
 
 @font-face {
