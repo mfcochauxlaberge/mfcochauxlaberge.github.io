@@ -112,10 +112,7 @@ h3 span {
   padding: 10px;
   margin: auto;
   color: #000;
-  /* border: 1px solid black; */
-  /* border-radius: 4px; */
   background: rgba(255, 255, 255, 0.8);
-  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.4); */
 }
 
 .box-code {
