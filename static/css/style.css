@@ -71,6 +71,7 @@ h3 span {
 #content {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 .box {
@@ -79,6 +80,7 @@ h3 span {
   gap: 10px;
   padding: 10px;
   background: #eee;
+  border-radius: 10px;
 }
 
 .box-description {
@@ -92,7 +94,7 @@ h3 span {
 
 .box-arkipel {
   min-height: 400px;
-  background: url('../img/bg_arkipel.jpg') #00cbda;
+  background: url('../img/bg_arkipel.jpg');
   background-position: bottom center;
   background-size: 100% auto;
   background-repeat: no-repeat;
