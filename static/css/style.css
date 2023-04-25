@@ -67,7 +67,7 @@ h3 span {
   display: grid;
   align-content: start;
   gap: 10px;
-  padding: 10px;
+  padding: 10px 12px;
   background: #eee;
   border-radius: 10px;
 }
