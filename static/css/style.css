@@ -32,8 +32,6 @@ a {
 
 #logo {
   grid: logo;
-  width: 100px;
-  height: 100px;
 }
 
 #logo img {
@@ -59,8 +57,42 @@ h3 span {
 
 #maple {
   grid: maple;
-  display: flex;
-  place-items: center;
+  place-self: center;
+
+  img {
+    display: block;
+    height: 80px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  #header {
+    grid-template-columns: 80px 1fr min-content;
+    grid-template-rows: 80px;
+  }
+
+  #name {
+    font-size: 12px;
+  }
+
+  #maple img {
+    height: 60px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  #header {
+    grid-template-columns: 60px 1fr min-content;
+    grid-template-rows: 60px;
+  }
+
+  #name {
+    font-size: 10px;
+  }
+
+  #maple img {
+    height: 50px;
+  }
 }
 
 #content {
