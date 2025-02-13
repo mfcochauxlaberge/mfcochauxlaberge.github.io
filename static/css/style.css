@@ -22,7 +22,7 @@ a {
 #header {
   display: grid;
   grid-template:
-    "logo name"
+    "logo name maple"
   ;
   grid-template-columns: 100px 1fr;
   grid-template-rows: 100px;
@@ -55,6 +55,12 @@ h3 span {
   display: flex;
   align-items: center;
   font-size: 14px;
+}
+
+#maple {
+  grid: maple;
+  display: flex;
+  place-items: center;
 }
 
 #content {
