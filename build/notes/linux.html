@@ -1,0 +1,41 @@
+<h1>Notes on my Linux system</h1>
+<p>I am a Linux user currently using Arch Linux full time.</p>
+<p>These notes explain my setup and how I use it. They are publicly available for anyone to read, but the main reason they are there is help me remember how my setup works. Feel free to copy anything you like.</p>
+<!-- My configuration can be found in my [dotfiles]("https://github.com/mfcochauxlaberge/dotfiles"). -->
+<h2>Tools</h2>
+<p>Here is a list of tools I like to have installed on my system.</p>
+<h3>bat</h3>
+<p>This is cat with syntax highlighting and other useful features.</p>
+<p><a href="https://github.com/sharkdp/bat">bat's homepage</a></p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">sudo pacman -S bat
+</span></code></pre>
+<h3>fd</h3>
+<p>This is an alternative to find.</p>
+<p><a href="https://github.com/sharkdp/fd">fd's homepage</a></p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">sudo pacman -S fd
+</span></code></pre>
+<h4>Usage</h4>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1"># Search something within the current directory.
+</span><span class="code-line line-number" line="2">fd something
+</span><span class="code-line line-number" line="3">
+</span><span class="code-line line-number" line="4"># Search something in /my/dir.
+</span><span class="code-line line-number" line="5">fd something /my/dir
+</span><span class="code-line line-number" line="6">
+</span><span class="code-line line-number" line="7"># Include hidden directories and files.
+</span><span class="code-line line-number" line="8">fd -H something
+</span></code></pre>
+<h2>AUR packages</h2>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1"># Install a package
+</span><span class="code-line line-number" line="2">git clone https://aur.archlinux.org/my-package.git
+</span><span class="code-line line-number" line="3">makepkg -si
+</span><span class="code-line line-number" line="4">
+</span><span class="code-line line-number" line="5"># Update packages
+</span><span class="code-line line-number" line="6"># yay is a helper that can be used
+</span><span class="code-line line-number" line="7"># to update all AUR packages at once.
+</span><span class="code-line line-number" line="8">yay
+</span><span class="code-line line-number" line="9">
+</span><span class="code-line line-number" line="10"># Remove a package
+</span><span class="code-line line-number" line="11"># yay can also be used to delete a
+</span><span class="code-line line-number" line="12"># package from the AUR.
+</span><span class="code-line line-number" line="13">yay -S my-package
+</span></code></pre>
