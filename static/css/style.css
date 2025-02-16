@@ -159,6 +159,36 @@ h3 span {
   background-color: rgba(200, 0, 0, 0.4);
 }
 
+.box-skills {
+  display: grid;
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .skill-logos {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+
+    div {
+      border: 1px solid blue;
+      
+      a {        
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+      }
+
+      img {
+        display: block;
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
+
 .box-arkipel {
   min-height: 400px;
   background: url('../img/bg_arkipel.jpg');
