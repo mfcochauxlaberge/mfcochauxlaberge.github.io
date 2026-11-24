@@ -130,7 +130,7 @@ h3 span {
   place-content: center;
   grid-auto-flow: column;
   border-bottom: 1px solid black;
-  
+
   & .question-mark {
     padding: 0 4px;
     color: #c00;
@@ -160,7 +160,7 @@ h3 span {
 }
 
 .box-arkipel {
-  min-height: 400px;
+  min-height: 350px;
   background: url('../img/bg_arkipel.jpg');
   background-position: bottom center;
   background-size: 100% auto;
